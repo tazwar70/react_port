@@ -6,7 +6,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+#navbar-logo{
+  height: 50px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -23,7 +25,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-hero{
+  color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: white;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +46,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Layout */
+#home{
+  background-image: url("https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+#about .card{
+  margin-top: 20px;
+  max-width: fit-content;
+  max-width: 80vw;
+  height: auto;
+}
+#about .card-body{
+  min-width: 50vw;
+  margin-left: 20px;
+}
+#about .card-title{
+  font-size: 2rem;
+}
+#about .card-img{
+  border-radius: 100%;
+}
+#about .card-text{
+  padding: 20px;
+}
+/* Footer */
+#footer{
+  background: #282c34;
+  padding: 30px 0;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  align-content: center;
+  display: block;
+}
+#footer .list-inline{
+  display: flex;
+  justify-content: space-evenly;
+}
+#footer .copyright{
+  font-size: 1.4rem;
+}
+#footer a{
+  color: #61dafb;
+}
+#footer ul {
+  list-style: none;
+}
+/* Buttons */
+
+.App .btn{
+  margin: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
