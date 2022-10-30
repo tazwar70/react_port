@@ -6,12 +6,17 @@ function Footer() {
     <footer id="footer">
         <div className="container">
             <ul className="list-inline">
-                <li className="list-inline-item"><a href="https://twitter.com/TazwarH"><i className="fab fa-twitter"></i></a></li>
-                <li className="list-inline-item"><a href="https://github.com/tazwar70?tab=repositories"><i className="fab fa-github"></i></a></li>
-                <li className="list-inline-item"><a href="https://www.instagram.com/tazwar70"><i className="fab fa-instagram"></i></a></li>
+                <li className="list-inline-item"><a href="https://www.linkedin.com/in/tajwarhaque/" target="_blank" rel='noreferrer'><i className="fab fa-linkedin"></i></a></li>
+                <li className="list-inline-item"><a href="https://github.com/tazwar70?tab=repositories" target="_blank" rel='noreferrer'><i className="fab fa-github"></i></a></li>
+                <li className="list-inline-item"><a href="https://www.instagram.com/shotbytajwar" target="_blank" rel='noreferrer'><i className="fab fa-instagram"></i></a></li>
             </ul>
             <ul className="copyright">
-                <li>2022 © Md Shadman Tajwar Haque</li>
+                <li>
+                    Md Shadman Tajwar Haque
+                </li>
+                <li>
+                    <p>This page was built using Typescript and hosted on GitHub pages</p>
+                </li>
             </ul>
             <ul className="text-center">
             <li>

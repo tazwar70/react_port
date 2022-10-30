@@ -36,7 +36,9 @@ function App() {
             <div className='col-md-8'>
               <div className='card-body align-middle'>
                 <h5 className="card-title">Hi, I'm Tajwar,</h5>
-                <p className='card-text'>I'm a Dev based in Toronto with a few years of experience in the Telecommunications, Health Care and Education industry primarily working with web development.</p>
+                <p className='card-text'>
+                  I'm a Dev based in Toronto with a few years of experience in the Telecommunications, Health Care and Education industry primarily working with web development. My area of interests are in Machine Learning and Data Science.
+                </p>
                 <button type='button' className='btn btn-info' onClick={goto_linkedin}>
                   <i className="fab fa-linkedin"></i> Connect on LinkedIn
                 </button>
@@ -50,7 +52,7 @@ function App() {
         <h2>
           Projects
         </h2>
-        <div className='row justify-content-around'>
+        <div className='row justify-content-around' style={{margin:0,}}>
           <div className='col-md-4'>
             <div className='card text-bg-dark mb-3'>
                 <div className="card-header">Recent Projects</div>
